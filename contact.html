@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="theme-color" content="#330099">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+	<style type="text/css">
+	body{
+	margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+	font-family:Arial; 
+	padding-top: -30px;
+}
+
+nav{
+	width: 100%;
+	background-color: rgba(51,0,153,.90);
+	box-shadow: 0 5px 50px rgba(0,0,0,.6);
+	overflow: hidden;
+ 	position: fixed;
+  	top: 0px;
+  	width: 100%;
+  	z-index: 4;
+  	cursor: pointer;
+}
+
+::selection {
+background: #00ff00; /* Safari */
+}
+#logo{
+	width: 30px;
+	height: 30px;
+	padding-bottom: -10px;
+	margin-bottom: -10px;
+	padding-left: 30px;
+}
+#LOGOMITAN{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -180px;
+    width: 30%;
+}
+
+.navigation-bar ul 
+{
+  padding: 0px;
+  margin: 0px;
+  margin-t
+  display:inline-block;
+  vertical-align:top;
+}
+ul{
+	width: 100%; 
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+ul li:hover
+{
+	color: #000;
+	background: rgba(0,  250, 0, 0.50);
+	border-bottom: 4px solid #00ff00;
+}
+ul li a
+{
+	color: #fff;
+	text-decoration: none;
+}
+nav ul .active
+{
+	border-bottom: 4px solid #00ff00;
+}
+
+
+.footer
+{
+	border-top: 4px solid #00ff00;
+	background-color: #1c1e20;
+	height: 500px;
+	position: relative;
+	bottom: -20px;
+	z-index: 4;
+}
+.footer p
+{
+	text-align: center;
+	color: #555;
+	font-family: arial;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 4;
+}
+
+.toggle
+{
+	width: 100%;
+	padding: 10px 20px;
+	background-color: rgba(51,0,153,.1);
+	text-align: right;
+	box-sizing: border-box;
+	color: #fff;
+	font-size:30px;
+	display: none;
+}
+
+@media (max-width: 600px)
+{
+	.toggle
+	{
+		display: block;
+	}
+	li
+	{
+	    float: center;
+	}
+	ul
+	{
+		width: 100%;
+		display: none;
+		-ms-flexbox-wrap: wrap;
+		-ms-flexbox-direction: column;
+		display: -webkit-box;
+		text-align: center; 
+	}
+	ul li
+	{
+		display: block;
+		text-align: center; 
+		margin-top: -15px;
+		
+	}
+	.active
+	{
+		display: block;
+		transition: 0.6s;
+	}
+}
+.mega{
+	margin-top: 100px;
+}
+
+
+
+				
+.button {
+    background-color: #00ff00;/* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.6s;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 200px;
+    position: relative;
+    
+}
+.button1 {
+    background-color: white; 
+    color: #00ff00; 
+    border: 2px solid #00ff00;
+    border-radius: 9px;
+
+}
+.button1:hover {
+    background-color: #00ff00;
+    color: #fff;
+}
+
+		/*CARD*/
+.div{
+	border-radius: 100%;
+}
+img{
+	border-radius: 2%;
+	border-bottom: 20px:
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s;
+    width: 40%;
+    margin-left: 409px;
+    padding-top: -9px:
+    border-radius: 2%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 30px 0 rgba(0,0,0,0.4);
+}
+
+
+
+</style>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1, user-scalabe=no"/>
+	<title>EdMan | Staying Connecting</title>
+	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div id="header">
+	<nav>
+		<div class="toggle">	
+			<i class="fa fa-bars menu" aria-hidden="true"></i>
+		</div>
+			<div class="navigation-bar">
+				<ul>
+					<img id="logo" src="img/LOGO EDMAN MINI 2018.png">
+					<li><a href="index.html">Home</a></li>
+					<li style="float: right;"><a href="service.html">Service</a></li>
+					<li style="float: right;"><a href="about.html">About</a></li>
+					<li class="active" style="float: right;"><a href="contact.html">Contact</a></li>
+					<li style="float: right;"><a href="portfolio.html">Portfolio</a></li>
+				</ul>
+			</div>
+	</nav>
+	</div>
+</head>
+<body>
+		  <button class="button button1">Green</button>
+	<section class="cardM">
+		<div class="card">
+			<img src="img/img_avatar.png" alt="Avatar" style="width:100%">
+		    <div class="container">
+			    <h4 style="text-align: center;"><b>EdMan Manigat</b></h4> 
+			    <p style="text-align: center;">Desiner & Engineer</p> 
+		 </div>
+	</section>
+</div>
+
+</body>
+<footer class="footer">
+	<div>
+		<p>© 2018 EdMan. All Rights Reserved</p>
+	</div>
+</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.menu').click(function(){
+				$('ul').toggleClass('active');
+			})
+		})
+	</script>
+</html>

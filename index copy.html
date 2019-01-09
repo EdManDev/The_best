@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="theme-color" content="#132133">
+	<link rel="shortcut icon" href="LOGO EDMAN 2018.png" type="image/x-icon" />
+	<style type="text/css">
+					body{
+						margin-right: 0px;
+					    margin-top: 0px;
+					    margin-left: 0px;
+						font-family: ubuntu; 
+						padding-top: 30px;
+
+					}
+
+					nav{
+						width: 100%;
+						background: #330099;
+						box-shadow: 0 5px 50px rgba(0,0,0,.6);
+						overflow: hidden;
+					 	position: fixed;
+					  	top: 0px;
+					  	width: 100%;
+					  	z-index: 4;
+					}
+					::selection {
+			        background: #ffb7b7; /* Safari */
+			        }
+					
+					#logo{
+						width: 30px;
+						height: 30px;
+						padding-bottom: -10px;
+						margin-bottom: -10px;
+						padding-left: 30px;
+					}
+					#MITAN{
+					    display: block;
+					    margin-left: auto;
+					    margin-right: auto;
+					    margin-bottom: -180px;
+					    width: 30%;
+					}
+
+					.navigation-bar ul 
+					{
+					  padding: 0px;
+					  margin: 0px;
+					  margin-t
+					  display:inline-block;
+					  vertical-align:top;
+					}
+					ul{
+						width: 100%; 
+						margin: 0px;
+						padding: 0px;
+					}
+					ul li{
+						list-style: none;
+						display: inline-block;
+						padding: 20px;
+					}
+					ul li:hover
+					{
+						background: #4385f5; 
+					}
+					ul li a
+					{
+						color: #fff;
+						text-decoration: none;
+					}
+
+					.toggle
+					{
+						width: 100%;
+						padding: 10px 20px;
+						background-color: rgba(51,0,153,.1);
+						text-align: right;
+						box-sizing: border-box;
+						color: #fff;
+						font-size:30px;
+						display: none;
+					}
+
+					@media (max-width: 600px)
+					{
+						.toggle
+						{
+							display: block;
+						}
+						li
+						{
+						    float: center;
+						}
+						ul
+						{
+							width: 100%;
+							display: none;
+							-ms-flexbox-wrap: wrap;
+							-ms-flexbox-direction: column;
+							display: -webkit-box;
+							text-align: center; 
+						}
+						ul li
+						{
+							display: block;
+							text-align: center; 
+							
+						}
+						.active
+						{
+							display: block;
+						}
+					}
+					.mega{
+						margin-top: 100px;
+					}
+
+</style>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1, user-scalabe=no"/>
+	<title>This is my wesbsite</title>
+	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div id="header">
+	<nav>
+		<div class="toggle">	
+			<i class="fa fa-bars menu" aria-hidden="true"></i>
+		</div>
+			<div class="navigation-bar">
+				<ul>
+					<img id="logo" src="LOGO EDMAN MINI 2018.png">
+					<li><a href="#">Home</a></li>
+					<li style="float: right;"><a href="#">About</a></li>
+					<li style="float: right;"><a href="#">Contact</a></li>
+					<li style="float: right;"><a href="portfolio.html">Portfolio</a></li>
+					<li style="float: right;"><a href="#">Contact</a></li>
+				</ul>
+			</div>
+	</nav>
+	</div>
+</head>
+<body>
+	<div id="mega">
+
+</body>
+<footer></footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.menu').click(function(){
+				$('ul').toggleClass('active');
+			})
+		})
+	</script>
+</html>
